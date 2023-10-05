@@ -1,0 +1,6 @@
+created launch template 
+then created the ASG with loadbalancer
+worked on how updated server info show on the server with ec2 server refresh option
+also created some policy in  schedule option
+
+need to work on more dynamic policies
