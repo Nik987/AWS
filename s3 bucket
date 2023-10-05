@@ -1,0 +1,9 @@
+uploaded static website on bucket
+updated the policy to fetch the data from the s3 bucket
+added replication rule on 
+Cross region replication  Enable Replication in such way that all objects in S3 bucket with replicate to another bucket 
+enable the versioning
+added sns notifiction when delete or add data in s3 bucket 
+worked on lifecycle rule
+worked on cloudfront 
+enable the invalidation
