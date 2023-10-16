@@ -1,0 +1,35 @@
+Setup new custom VPC with below specifications.
+
+ 
+
+Create VPC (CIDR -> 10.20.0.0/24)
+
+Create Subnet
+
+Public Subnet 10.20.0.0/26 (Public)
+
+Private Subnet 1a 10.20.0.64/26 (Private)
+
+Enable Public IP Setting in Public Subnet
+
+Create Internet Gateway
+
+Add Public Route in existing main route (0.0.0.0./0 -> Internet Gateway)
+
+Launch EC2 in public Subnet
+
+Validation
+
+Create NAT Gateway (in public Subnet)
+
+Add new Private Route (0.0.0.0 -> NAT Gateway)
+
+Create EC2 in Private Subnet
+
+Access instance in Public Subnet
+
+Validate internet access on public ec2 instance
+
+Access instances in Private Subnet via Jump Server(bastion host/connect via public ec2 instance)
+
+Validate internet access for ec2 instance created in private subnet
